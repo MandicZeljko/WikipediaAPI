@@ -116,7 +116,8 @@ describe('Countru data check', () => {
                 }
             })
             cy.get(Wikipedia.serbiaArea)
-            .contains('88,361')
+            .contains("88,361")
+            
             .then($area => {
                 if ($area.text().includes("Serbia.area")) {
                     cy.log('Aplication have displayed same area data as Wikipedia' + ' = ' + Serbia.area)
