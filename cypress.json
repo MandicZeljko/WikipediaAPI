@@ -1,0 +1,11 @@
+{
+    "baseUrl": "http://google.com",
+    "chromeWebSecurity": false,
+    "retries": {
+        "runMode": 0,
+        "openMode": 0
+    },
+    "env": {
+        "apiUrl": "https://restcountries.com/v3.1/name/"
+    }
+}
